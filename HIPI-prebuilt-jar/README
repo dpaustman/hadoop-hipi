@@ -1,4 +1,4 @@
-# HIPI-prebuilt-jar 
+# HIPI-prebuilt-jar
 
 This is the pre-built JAR file for Hadoop Image Processing Interface. 
 When you download the files from official website of HIPI: http://hipi.cs.virginia.edu , it lacks some files, hence after building gradle,many of the developers may find errors while running hibImport and other commands. You have to add this jar file in your core/build/libs for successful execution.
