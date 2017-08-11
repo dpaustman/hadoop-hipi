@@ -1,0 +1,5 @@
+Problem: Namenode is in safemode, hence cannot perform some operations.
+Soultion: Turn off the safemode by executing following command:
+hdfs dfsadmin -safemode leave
+
+Now, NameNode is out of the safemode and you can perform operations.
