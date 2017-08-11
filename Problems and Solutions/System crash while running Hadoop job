@@ -1,0 +1,6 @@
+## Problem: While running Hadoop job, system gets crashed.
+Solution: 
+1. Open file /etc/systemd/logind.conf
+sudo gedit /etc/systemd/logind.conf
+2. At the end of the file add following line:
+KillUserProcesses=no
