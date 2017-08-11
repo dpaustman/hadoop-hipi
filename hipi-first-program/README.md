@@ -13,4 +13,4 @@ Steps:
 3. Create a folder in your hadoop user(Mine is hduser) with 4 images and name it sampleimages.
 4. Create a hib using hibImport as per given in the official wesite: http://hipi.cs.virginia.edu/gettingstarted.html
 5. Run the following command :
-hadoop jar hipi-demo-1.0-SNAPSHOT.jar HelloWorld sampleimages.hib sampleimages_average
+hadoop jar hipi-demo-1.0-SNAPSHOT.jar PixelIntensity sampleimages.hib sampleimages_average
