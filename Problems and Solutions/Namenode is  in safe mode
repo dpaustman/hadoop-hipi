@@ -1,4 +1,4 @@
-Problem: Namenode is in safemode, hence cannot perform some operations.
+## Problem: Namenode is in safemode, hence cannot perform some operations.
 Soultion: Turn off the safemode by executing following command:
 hdfs dfsadmin -safemode leave
 
