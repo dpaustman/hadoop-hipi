@@ -1,0 +1,16 @@
+## Problem: Many of the people have faced this issue while starting the development. The problem is Namenode or Datanode or
+both doesn't show up while executing after executing start-dfs.sh and start-yarn.sh
+
+Solution:
+
+Execute following commands:
+
+1. $ stop-dfs.sh
+2. $ start-yarn.sh
+3. $ sudo rm -rf /app/hadoop/tmp
+4. $ sudo mkdir -p /app/hadoop/tmp
+5. $ sudo chown hduser: hadoop /app/hadoop/tmp
+6. $ sudo chmod 750 /app/hadoop/tmp
+7. $ hdfs namenode -format
+8. $ start-dfs.sh
+9. $ start-yarn.sh
