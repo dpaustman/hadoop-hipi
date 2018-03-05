@@ -7,3 +7,5 @@ I was going through the Google Group discussion of HIPI users and have found out
 If you are also facing problems and finding solutions for the same, write the problem and solution of it here. Your contribution will be appreciated.
 
 If you ever stuck somewhere, feel free to ask on ishit711@gmail.com
+
+http://embedonix.com/articles/image-processing/installing-opencv-3-1-0-on-ubuntu/
